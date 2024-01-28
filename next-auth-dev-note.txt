@@ -1,0 +1,15 @@
+next-auth
+bcrypt to hash passwords
+* Prisma ==> Prisma is an open-source next-generation ORM
+    https://www.prisma.io/docs/getting-started
+    
+    *** to install Prisma
+        * npm i -D prisma
+        * npm install @prisma/client
+        * npx prisma init
+    *** to reset prisma db
+        * npx prisma migrate reset
+    *** to generate prisma client db
+        * npx prisma generate
+    *** to push prisma schema to db
+        * npx prisma db push
